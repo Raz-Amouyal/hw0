@@ -66,7 +66,7 @@ int min(int x, int y, int z){
     int min = (x < y) ? x : y;
     return (min < z) ? min : z;
 }
-
+/*
 void print(int* a,int l1, int l2 ){
     for (int i = 0; i < l1; ++i) {
         for (int j = 0; j < l2; ++j) {
@@ -74,7 +74,7 @@ void print(int* a,int l1, int l2 ){
         }
         printf("\n");
     }
-}
+}*/
 
 //fghhfghfghfghdserfg
 
