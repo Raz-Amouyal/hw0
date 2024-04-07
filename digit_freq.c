@@ -22,9 +22,10 @@ int main() {
     }
     
 
-    for(int i=0 ; i < NUM_OF_DIGITS ; i++){
+   for(int i=0 ; i < NUM_OF_DIGITS -1 ; i++){
         printf("%d ",counter[i]);
     }
+    printf("%d",counter[9]);
 
     return 0;
 }
